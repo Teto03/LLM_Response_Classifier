@@ -1,2 +1,0 @@
-# Tirocinio
-Tirocinio
