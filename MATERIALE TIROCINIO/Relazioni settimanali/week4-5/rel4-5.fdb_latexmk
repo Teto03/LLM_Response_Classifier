@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1745672338.2725 "/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/Relazioni settimanali/week4-5/rel4-5.tex" "rel4-5.pdf" "rel4-5" 1745672338.97826 2
+["pdflatex"] 1745672686.54184 "/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/Relazioni settimanali/week4-5/rel4-5.tex" "rel4-5.pdf" "rel4-5" 1745672687.28087 2
   "/etc/texmf/web2c/texmf.cnf" 1745056304.56994 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/Relazioni settimanali/week4-5/rel4-5.tex" 1745672332.20987 10937 ee8895fecdea49e520a8e6ff1e8ca8e6 ""
+  "/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/Relazioni settimanali/week4-5/rel4-5.tex" 1745672682.94773 11175 1dd6f5316ef6b43b2cb914012e8084fb ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -111,10 +111,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1745600221 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1745600269 3347072 1451e633750c31a86ecfe271a7a824d4 ""
-  "rel4-5.aux" 1745672338.87587 2735 848feb8c08818d95cb4b4291ddb3930a "pdflatex"
-  "rel4-5.out" 1745672338.87587 2944 9765a906e31434fbd72045ed9da9a3fc "pdflatex"
-  "rel4-5.tex" 1745672332.20987 10937 ee8895fecdea49e520a8e6ff1e8ca8e6 ""
-  "rel4-5.toc" 1745672338.8772 1395 75329212be4c5749ed24145b798b991c "pdflatex"
+  "rel4-5.aux" 1745672687.17386 2888 1f54a6e2491795da4a8e76b8632c478f "pdflatex"
+  "rel4-5.out" 1745672687.17486 2944 9765a906e31434fbd72045ed9da9a3fc "pdflatex"
+  "rel4-5.tex" 1745672682.94773 11175 1dd6f5316ef6b43b2cb914012e8084fb ""
+  "rel4-5.toc" 1745672687.17486 1395 75329212be4c5749ed24145b798b991c "pdflatex"
   (generated)
   "rel4-5.aux"
   "rel4-5.log"

@@ -30,6 +30,7 @@
 
 \begin{document}
 
+
 \maketitle
 
 \begin{abstract}
@@ -104,7 +105,7 @@ import re
 
 def check_if_jailbreak(text):
     """
-    Restituisce True se il testo è probabilmente jailbreak, False altrimenti.
+    Restituisce True se il testo è probabilmente jailbreak, False altrimenti. % Remove or escape non-ASCII characters
     Utilizza:
       1) conteggio di frasi di rifiuto,
       2) pattern sospetti,
@@ -157,20 +158,22 @@ Abbiamo scelto il modello \texttt{bert-base-uncased} per le sue dimensioni conte
 \end{itemize}
 
 \subsection{Andamento della Loss e Convergenza}
-I valori di loss registrati evidenziano una riduzione costante:
+I valori di loss registrati evidenziano una riduzione costante
 \begin{table}[h!]
-  \centering
-  \begin{tabular}{lrr}
-    \textbf{Step} & \textbf{Loss Train} & \textbf{Loss Val}\
-    \hline
-    100 & 0.6206 & 0.5892 \\
-    300 & 0.2167 & 0.2345 \\
-    700 & 0.0881 & 0.1123 \\
-    900 & 0.0752 & 0.1010 \\
-  \end{tabular}
-  \caption{Andamento della loss durante il training}
-\end{table}
-
+    \centering
+    \begin{tabular}{|c|c|c|}  % Ho cambiato lrr con |c|c|c| per aggiungere bordi verticali e centrare
+      \hline
+      \textbf{Step} & \textbf{Loss Train} & \textbf{Loss Val} \\
+      \hline
+      100 & 0.6206 & 0.5892 \\
+      300 & 0.2167 & 0.2345 \\
+      700 & 0.0881 & 0.1123 \\
+      900 & 0.0752 & 0.1010 \\
+      \hline
+    \end{tabular}
+    \caption{Andamento della loss durante il training}
+    \label{tab:loss}  % Aggiunto un'etichetta per riferimenti nel testo
+  \end{table}
 \subsection{Valutazione Finale}
 La valutazione sui 1\,773 esempi del test set ha prodotto:
 \begin{itemize}
