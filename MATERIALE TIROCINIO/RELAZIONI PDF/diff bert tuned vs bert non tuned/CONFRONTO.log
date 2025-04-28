@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.4.25)  25 APR 2025 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.4.25)  28 APR 2025 14:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex"
-(/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex
+**"/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/diff bert tuned vs bert non tuned/CONFRONTO.tex"
+(/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/diff bert tuned vs bert non tuned/CONFRONTO.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -237,43 +237,49 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip54
 ) (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip55
+\multirow@cntb=\count296
+\multirow@dima=\skip56
+\bigstrutjot=\dimen165
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count296
+\l__color_backend_stack_int=\count297
 \l__pdf_internal_box=\box54
 ) (./CONFRONTO.aux)
 \openout1 = `CONFRONTO.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
-\scratchdimen=\dimen165
+\scratchcounter=\count298
+\scratchdimen=\dimen166
 \scratchbox=\box55
-\nofMPsegments=\count298
-\nofMParguments=\count299
+\nofMPsegments=\count299
+\nofMParguments=\count300
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count300
-\MPscratchDim=\dimen166
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
+\MPscratchCnt=\count301
+\MPscratchDim=\dimen167
+\MPnumerator=\count302
+\makeMPintoPDFobject=\count303
 \everyMPtoPDFconversion=\toks26
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -284,7 +290,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 16.
+ (./CONFRONTO.out) (./CONFRONTO.out)
 \@outlinefile=\write3
 \openout3 = `CONFRONTO.out'.
 
@@ -292,222 +299,97 @@ Package hyperref Info: Link coloring OFF on input line 15.
 
 LaTeX Warning: No \author given.
 
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:23: Missing $ inserted.
-<inserted text> 
-                $
-l.23 ... A (BERT Fine-Tuned)] Modello Teto03/Bert_
-                                                  base_fineTuned per classif...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:24: LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24   \item
-            [Run B (BERT Base)] Modello pre-addestrato bert-base-uncased sen...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:24: Missing $ inserted.
-<inserted text> 
-                $
-l.24   \item[Run B (BERT Base)]
-                                Modello pre-addestrato bert-base-uncased sen...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (121.90234pt too wide) in paragraph at lines 23--24
-[]\T1/cmr/m/n/12 Modello Teto03/Bert$[]\OML/cmm/m/it/12 ase[]ineTunedperclassificazioneadueclassi \OT1/cmr/m/n/12 :
- []
-
-
-Overfull \hbox (6.45174pt too wide) in paragraph at lines 24--25
-[]\T1/cmr/m/n/12 Modello pre-addestrato bert-base-uncased senza fine-
- []
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:28: Missing $ inserted.
-<inserted text> 
-                $
-l.28 ...a K-Means con $k=2$ (\texttt{random_state}
-                                                  =42). Le proiezioni in 2D ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:28: Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.28 ...a K-Means con $k=2$ (\texttt{random_state}
-                                                  =42). Le proiezioni in 2D ...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:29: Missing $ inserted.
-<inserted text> 
-                $
-l.29 \begin{itemize}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:29: Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.29 \begin{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (162.50304pt too wide) in paragraph at lines 28--29
-\T1/cmr/m/n/12 Per en-trambi i run si ap-plica K-Means con $\OML/cmm/m/it/12 k \OT1/cmr/m/n/12 = 2$ \T1/cmr/m/n/12 (\T1/cmtt/m/n/12 random$[]\OML/cmm/m/it/12 tate \OT1/cmr/m/n/12 = 42)\OML/cmm/m/it/12 :Leproiezioniin\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 Dsonoottenutetramite \OT1/cmr/m/n/12 :$ 
- []
-
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:30: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \item P
-              CA (2 componenti principali) per una visione lineare.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:31: LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31   \item t
-              -SNE (2D, perplexity = \texttt{min}(30, $n\_samples-1$)) per c...
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:32: LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 \end{itemize}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:32: Missing } inserted.
-<inserted text> 
-                }
-l.32 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-/home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/CONFRONTOBERT/CONFRONTO.tex:32: Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.32 \end{itemize}
-                  
-Things are pretty mixed up, but I think the worst is over.
-
-
-LaTeX Warning: Reference `tab:distribuzione' on page 1 undefined on input line 37.
-
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (3.98587pt too wide) in paragraph at lines 61--62
+\T1/cmr/m/n/12 (997 es-empi etichet-tati come ``no break'' e 787 es-empi etichet-tati come ``break'').
+ []
 
-LaTeX Warning: Reference `tab:metriche' on page 2 undefined on input line 54.
 
-<1.png, id=25, 513.8397pt x 395.3169pt>
-File: 1.png Graphic file (type png)
-<use 1.png>
-Package pdftex.def Info: 1.png  used on input line 76.
-(pdftex.def)             Requested size: 292.5pt x 225.03738pt.
-<3.png, id=27, 497.9403pt x 395.3169pt>
-File: 3.png Graphic file (type png)
-<use 3.png>
-Package pdftex.def Info: 3.png  used on input line 83.
-(pdftex.def)             Requested size: 292.5pt x 232.21552pt.
-<2.png, id=28, 727.9998pt x 616.2222pt>
-File: 2.png Graphic file (type png)
-<use 2.png>
-Package pdftex.def Info: 2.png  used on input line 90.
-(pdftex.def)             Requested size: 292.5pt x 247.59404pt.
-<4.png, id=29, 727.9998pt x 616.2222pt>
-File: 4.png Graphic file (type png)
-<use 4.png>
-Package pdftex.def Info: 4.png  used on input line 97.
-(pdftex.def)             Requested size: 292.5pt x 247.59404pt.
+Overfull \hbox (25.01292pt too wide) in paragraph at lines 67--78
+ [][] 
+ []
+
+
+Overfull \hbox (6.68924pt too wide) in paragraph at lines 83--84
+[]\T1/cmr/m/n/12 Per BERT Base, an-che la cor-rispon-denza ot-ti-male segue lo stesso schema,
+ []
+
+
+Overfull \hbox (10.55382pt too wide) in paragraph at lines 87--87
+[]\T1/cmr/bx/n/14.4 Analisi Det-tagli-ata della Dis-tribuzione delle Etichette 
+ []
+
+
+Overfull \hbox (57.20514pt too wide) in paragraph at lines 94--102
+ [][] 
+ []
+
 
 
 [2]
-
-[3 <./1.png> <./3.png>]
-
-[4 <./2.png> <./4.png>]
-
-LaTeX Warning: Reference `fig:pca_tuned' on page 5 undefined on input line 109.
+Overfull \hbox (57.20514pt too wide) in paragraph at lines 108--116
+ [][] 
+ []
 
 
-LaTeX Warning: Reference `fig:tsne_untuned' on page 5 undefined on input line 109.
+Overfull \hbox (10.78244pt too wide) in paragraph at lines 121--122
+[]\T1/cmr/bx/n/12 BERT Base\T1/cmr/m/n/12 , pur mostrando una buona pre-ci-sione (97.0%) nell'assegnare
+ []
+
+<1.png, id=77, 513.8397pt x 395.3169pt>
+File: 1.png Graphic file (type png)
+<use 1.png>
+Package pdftex.def Info: 1.png  used on input line 150.
+(pdftex.def)             Requested size: 292.5pt x 225.03738pt.
 
 
+[3]
+<3.png, id=86, 497.9403pt x 395.3169pt>
+File: 3.png Graphic file (type png)
+<use 3.png>
+Package pdftex.def Info: 3.png  used on input line 157.
+(pdftex.def)             Requested size: 292.5pt x 232.21552pt.
+<2.png, id=87, 727.9998pt x 616.2222pt>
+File: 2.png Graphic file (type png)
+<use 2.png>
+Package pdftex.def Info: 2.png  used on input line 164.
+(pdftex.def)             Requested size: 292.5pt x 247.59404pt.
+<4.png, id=88, 727.9998pt x 616.2222pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 171.
+(pdftex.def)             Requested size: 292.5pt x 247.59404pt.
 
-[5{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./CONFRONTO.aux)
+
+[4 <./1.png>]
+
+[5 <./3.png> <./2.png>]
+
+[6 <./4.png>] (./CONFRONTO.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `CONFRONTO.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CONFRONTO.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  A02B61569808D6E32EE505597D36D7B7;1570.
+Package rerunfilecheck Info: File `CONFRONTO.out' has not changed.
+(rerunfilecheck)             Checksum: 9B41D0438F9EB90BD31D3331CC96F400;2161.
  ) 
 Here is how much of TeX's memory you used:
- 10779 strings out of 473197
- 169565 string characters out of 5718605
- 567047 words of memory out of 5000000
- 33902 multiletter control sequences out of 15000+600000
- 570287 words of font info for 64 fonts, out of 8000000 for 9000
+ 10872 strings out of 473197
+ 171250 string characters out of 5718605
+ 570749 words of memory out of 5000000
+ 33980 multiletter control sequences out of 15000+600000
+ 571191 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,398b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on CONFRONTO.pdf (5 pages, 1255716 bytes).
+ 75i,10n,79p,497b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on CONFRONTO.pdf (6 pages, 1242339 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 117 words of extra memory for PDF output out of 10000 (max. 10000000)
 
