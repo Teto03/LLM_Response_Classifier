@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.4.25)  13 MAY 2025 18:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2025.4.25)  13 MAY 2025 18:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -364,7 +364,7 @@ File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 Package hyperref Info: Option `colorlinks' set `true' on input line 22.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 28.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 24.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -374,26 +374,26 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (./rel.aux)
 \openout1 = `rel.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Info: Redefining \it@ocap on input line 28.
-LaTeX Info: Redefining \it@ccap on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \it@ocap on input line 24.
+LaTeX Info: Redefining \it@ccap on input line 24.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count318
@@ -454,7 +454,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
  (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 28.
+Package hyperref Info: Link coloring ON on input line 24.
  (./rel.out) (./rel.out)
 \@outlinefile=\write3
 \openout3 = `rel.out'.
@@ -463,60 +463,63 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count324
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 31.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 31.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 31.
- (/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 31.
- (/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 31.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 31.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}] (./rel.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 5.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 5.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `rel.toc'.
 
 
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.61 \clearpage
+                [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 49.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 75.
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 66.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 92.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (162.6871pt too wide) in paragraph at lines 66--68
+Overfull \hbox (162.6871pt too wide) in paragraph at lines 92--94
 \T1/lmr/m/n/10.95 Parallelamente al-la ri-cer-ca bi-blio-gra-fi-ca, si è la-vo-ra-to al-l'af-fi-na-men-to del-lo script Py-thon \T1/lmtt/m/n/10.95 bert_tuned_cluster_e_valutazione.py\T1/lmr/m/n/10.95 ,
  []
 
@@ -526,45 +529,40 @@ Overfull \hbox (162.6871pt too wide) in paragraph at lines 66--68
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.68 
+l.94 
       [1
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}]
-<images/clustering_tsne.png, id=82, 616.2222pt x 504.9264pt>
+<images/clustering_tsne.png, id=80, 616.2222pt x 504.9264pt>
 File: images/clustering_tsne.png Graphic file (type png)
 <use images/clustering_tsne.png>
-Package pdftex.def Info: images/clustering_tsne.png  used on input line 90.
+Package pdftex.def Info: images/clustering_tsne.png  used on input line 116.
 (pdftex.def)             Requested size: 364.19667pt x 298.41249pt.
 
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.94 
-      [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}]
-<images/clustering_pca.png, id=95, 513.8397pt x 395.3169pt>
+[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}]
+<images/clustering_pca.png, id=94, 513.8397pt x 395.3169pt>
 File: images/clustering_pca.png Graphic file (type png)
 <use images/clustering_pca.png>
-Package pdftex.def Info: images/clustering_pca.png  used on input line 97.
+Package pdftex.def Info: images/clustering_pca.png  used on input line 123.
 (pdftex.def)             Requested size: 318.66948pt x 245.17235pt.
-<images/clustering_umap.png, id=96, 504.4446pt x 395.3169pt>
+<images/clustering_umap.png, id=95, 504.4446pt x 395.3169pt>
 File: images/clustering_umap.png Graphic file (type png)
 <use images/clustering_umap.png>
-Package pdftex.def Info: images/clustering_umap.png  used on input line 104.
+Package pdftex.def Info: images/clustering_umap.png  used on input line 130.
 (pdftex.def)             Requested size: 318.66948pt x 249.73257pt.
 
 
 [3 <./images/clustering_tsne.png> <./images/clustering_pca.png>]
-<images/elbow_method.png, id=103, 521.0667pt x 395.3169pt>
+<images/elbow_method.png, id=102, 521.0667pt x 395.3169pt>
 File: images/elbow_method.png Graphic file (type png)
 <use images/elbow_method.png>
-Package pdftex.def Info: images/elbow_method.png  used on input line 115.
+Package pdftex.def Info: images/elbow_method.png  used on input line 141.
 (pdftex.def)             Requested size: 318.66948pt x 241.76424pt.
-<images/silhouette_plot.png, id=105, 508.7808pt x 395.3169pt>
+<images/silhouette_plot.png, id=104, 508.7808pt x 395.3169pt>
 File: images/silhouette_plot.png Graphic file (type png)
 <use images/silhouette_plot.png>
-Package pdftex.def Info: images/silhouette_plot.png  used on input line 124.
+Package pdftex.def Info: images/silhouette_plot.png  used on input line 150.
 (pdftex.def)             Requested size: 318.66948pt x 247.61533pt.
 
 
@@ -581,18 +579,18 @@ Package rerunfilecheck Info: File `rel.out' has not changed.
 (rerunfilecheck)             Checksum: 6DDACA01AA7841B8639CB23F60C685F6;3060.
  ) 
 Here is how much of TeX's memory you used:
- 14668 strings out of 473197
- 231241 string characters out of 5718605
- 642914 words of memory out of 5000000
- 37686 multiletter control sequences out of 15000+600000
- 602120 words of font info for 69 fonts, out of 8000000 for 9000
+ 14661 strings out of 473197
+ 231165 string characters out of 5718605
+ 643843 words of memory out of 5000000
+ 37681 multiletter control sequences out of 15000+600000
+ 601101 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,708b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on rel.pdf (8 pages, 737477 bytes).
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on rel.pdf (8 pages, 713389 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
+ 175 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 500000)
  114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
