@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
+\contentsline {section}{\numberline {2}Descrizione del Codice Base}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Estrazione delle embedding}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Selezione del numero di cluster}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Elbow Method}{3}{subsection.3.1}%
+\contentsline {paragraph}{Definizione.}{3}{section*.2}%
+\contentsline {paragraph}{Interpretazione del gomito.}{3}{section*.3}%
+\contentsline {subsection}{\numberline {3.2}Silhouette Analysis}{3}{subsection.3.2}%
+\contentsline {paragraph}{Silhouette di un singolo punto.}{3}{section*.4}%
+\contentsline {paragraph}{Silhouette media.}{4}{section*.5}%
+\contentsline {section}{\numberline {4}Implementazione nel codice}{4}{section.4}%
+\contentsline {section}{\numberline {5}Visualizzazioni 2D}{4}{section.5}%
+\contentsline {section}{\numberline {6}Risultati e conclusioni}{5}{section.6}%

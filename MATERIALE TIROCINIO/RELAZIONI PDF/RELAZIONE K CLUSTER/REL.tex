@@ -1,0 +1,141 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{listings}
+\lstset{
+basicstyle=\ttfamily\small,
+keywordstyle=\color{blue},
+commentstyle=\color{gray},
+stringstyle=\color{olive},
+showstringspaces=false,
+breaklines=true
+}
+
+\title{Relazione Tecnica: Selezione del Numero Ottimale di Cluster per Embedding LLM}
+\author{Team di Ricerca}
+\date{26 maggio 2025}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Introduzione}
+In questo documento presentiamo un'analisi approfondita del processo di clustering applicato alle embedding generate da un modello BERT fine-tuned (\texttt{Teto03/Bert\_base\_fineTuned}), con l'obiettivo di separare le risposte di un LLM tra quelle conformi alle policy di allineamento e quelle che rappresentano potenziali jailbreak. La sfida principale consiste nella scelta del numero di cluster, $k$, che permetta di rilevare possibili sfumature nelle risposte, evitando sia l'underfitting (troppi pochi cluster) sia l'overfitting (cluster non significativi).
+
+\section{Descrizione del Codice Base}
+Il workflow del codice si articola in due macro-fasi principali:
+\begin{enumerate}
+\item \textbf{Estrazione delle embedding}: ogni risposta JSON viene passata attraverso il tokenizer e il modello BERT, estraendo il vettore corrispondente al token \texttt{[CLS]} dell'ultimo layer.
+\item \textbf{Clustering e analisi}: applicazione di K-Means e indici di validazione (Elbow Method, Silhouette Analysis), seguita da visualizzazioni 2D (PCA, t-SNE, UMAP) e valutazione finale.
+\end{enumerate}
+
+\subsection{Estrazione delle embedding}
+\begin{lstlisting}[language=Python,caption={Blocco di caricamento delle embedding}]
+with open("response.json", "r") as f:
+responses = json.load(f)
+
+embedding_list = []
+for item in responses:
+text = item.get("response", "")
+inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
+outputs = model(**inputs, output_hidden_states=True)
+emb = outputs.hidden_states[-1][:, 0, :].squeeze(0).detach().cpu().numpy()
+embedding_list.append(emb)
+
+X = np.array(embedding_list)
+\end{lstlisting}
+In questa fase  raccoglie  vettori a  dimensione dell'embedding (tipicamente 768 per BERT-base).
+
+\section{Selezione del numero di cluster}
+La determinazione di  avviene tramite due principali indici:
+\begin{itemize}
+\item \textbf{Elbow Method}
+\item \textbf{Silhouette Analysis}
+\end{itemize}
+Di seguito una descrizione formale di entrambi.
+
+\subsection{Elbow Method}
+\paragraph{Definizione.} Per ciascun  nel range , si calcola l'inertia:
+
+
+
+dove:
+\begin{itemize}
+\item  = insieme dei punti assegnati al cluster 
+\item  = centroide geometric
+\item  = norma Euclidea
+\end{itemize}
+In pratica l'inertia misura la compattezza interna dei cluster: più è bassa, più i punti restano vicini ai propri centroidi.
+
+\paragraph{Interpretazione del gomito.} Il grafico  vs.  inizia con curve ripide (forte riduzione di inertia) e poi si appiattisce. Il punto di flesso (gomito) è considerato il  ottimale, poiché rappresenta un buon compromesso tra riduzione dell'errore e complessità del modello.
+
+\subsection{Silhouette Analysis}
+\paragraph{Silhouette di un singolo punto.} Data un'assegnazione di  al cluster :
+\begin{align*}
+a(x) &= \frac{1}{|A|-1} \sum_{y \in A,, y\neq x} d(x,y)  \
+b(x) &= \min_{B \neq A} \frac{1}{|B|} \sum_{y \in B} d(x,y) \
+s(x) &= \frac{b(x) - a(x)}{\max{a(x), b(x)}},
+\end{align*}
+con  distanza Euclidea. Il valore :
+\begin{itemize}
+\item : ottima compattezza interna e separazione esterna
+\item : punto al confine tra due cluster
+\item : assegnazione potenzialmente sbagliata
+\end{itemize}
+
+\paragraph{Silhouette media.} Si definisce:
+
+
+
+il cui massimo indica il numero di cluster che ottimizza simultaneamente compattezza e separazione.
+
+\section{Implementazione nel codice}
+Il blocco principale per la selezione automatica di $k$ è il seguente:
+\begin{lstlisting}[language=Python,caption={Elbow \& Silhouette loop}]
+ks = range(2, 11)
+inertias, sil_scores = [], []
+for k in ks:
+km = KMeans(n_clusters=k, random_state=42).fit(X)
+inertias.append(km.inertia_)
+sil_scores.append(silhouette_score(X, km.labels_))
+
+Plot combinato e scelta di best_k = argmax(sil_scores)
+
+\end{lstlisting}
+
+Dopo il loop:
+\begin{itemize}
+\item Si traccia un grafico con \texttt{plt.plot(ks, inertias)} e \texttt{plt.plot(ks, sil\_scores)} su assi y distinti.
+\item Si seleziona \(k = \arg\max(\{\mathrm{sil\_scores}\})\), ovvero il valore di \(k\) che massimizza la silhouette media.
+\end{itemize}
+
+Il clustering finale con  consente di procedere alle visualizzazioni 2D (PCA, t-SNE, UMAP) e alle metriche finali (silhouette media, silhouette plot dettagliato, distribuzione dei cluster).
+
+\section{Visualizzazioni 2D}
+Per validazione qualitativa, proiettiamo  su uno spazio 2D utilizzando:
+\begin{itemize}
+\item PCA (\emph{Principal Component Analysis})
+\item t-SNE (\emph{t-Distributed Stochastic Neighbor Embedding})
+\item UMAP (\emph{Uniform Manifold Approximation and Projection})
+\end{itemize}
+Ognuna di queste tecniche riduce la dimensionalità preservando differenti proprietà (varianza globale, strutture locali, geometria del manifold).
+
+\section{Risultati e conclusioni}
+Dall'analisi congiunta dei due indici, siamo in grado di:
+\begin{enumerate}
+\item Determinare  in maniera automatica e robusta
+\item Valutare la qualità del clustering con metriche numeriche e grafici diagnostici
+\item Identificare eventuali outlier o punti borderline tramite silhouette plot
+\end{enumerate}
+Questa metodologia garantisce un bilanciamento tra rigore quantitativo e verifica qualitativa tramite visualizzazioni.
+
+\vfill
+\noindent\textit{Relazione generata automaticamente dal sistema di analisi clustering, 26 maggio 2025.}
+\end{document}
+
