@@ -1,9 +1,9 @@
-PWD /home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/relazione k cluster sui 2 cluster
+PWD /home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/RELAZIONI SULLA VALUTAZIONE DEL MODELLO/relazione k cluster sui 2 cluster
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/relazione k cluster sui 2 cluster/rel.tex
+INPUT /home/teto/Scrivania/Tirocinio/MATERIALE TIROCINIO/RELAZIONI PDF/RELAZIONI SULLA VALUTAZIONE DEL MODELLO/relazione k cluster sui 2 cluster/rel.tex
 OUTPUT rel.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls

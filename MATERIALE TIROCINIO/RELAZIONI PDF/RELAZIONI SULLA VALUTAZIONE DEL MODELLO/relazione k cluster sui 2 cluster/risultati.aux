@@ -1,0 +1,61 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\babel@aux{italian}{}
+\babel@aux{italian}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduzione}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Metodologia}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset e Preprocessing}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Architettura di Clustering Gerarchico}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Livello 1: Macro-Clustering (k=2)}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Livello 2: Sotto-Clustering Ottimizzato}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Risultati Sperimentali}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Distribuzione dei Macro-Cluster}{2}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Distribuzione dei macro-cluster identificati}}{2}{}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:macro_distribution}{{1}{2}{}{table.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Ottimizzazione dei Sotto-Cluster}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Macro-Cluster 0 (no-jailbreak)}{2}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Analisi Elbow e Silhouette per macro-cluster 0 (no-jailbreak). La curva dell'inerzia mostra una decrescita costante mentre il Silhouette Score raggiunge il picco a k=4, tuttavia k=2 offre il miglior compromesso tra semplicità e qualità del clustering.}}{3}{}\protected@file@percent }
+\newlabel{fig:elbow_no_jailbreak}{{1}{3}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Macro-Cluster 1 (jailbreak)}{3}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Analisi Elbow e Silhouette per macro-cluster 1 (jailbreak). Il Silhouette Score è significativamente più alto, indicando una struttura cluster più definita e coerente rispetto al gruppo no-jailbreak.}}{4}{}\protected@file@percent }
+\newlabel{fig:elbow_jailbreak}{{2}{4}{}{figure.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Analisi Dimensionale e Visualizzazione}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Visualizzazione dei Macro-Cluster}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Proiezione PCA 2D dei macro-cluster. La separazione lineare è chiara tra le due categorie, con il cluster jailbreak (arancione) più compatto e il cluster no-jailbreak (blu) più distribuito nello spazio delle caratteristiche.}}{5}{}\protected@file@percent }
+\newlabel{fig:macro_pca}{{3}{5}{}{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Proiezione t-SNE 2D dei macro-cluster. L'analisi t-SNE evidenzia clustering naturale con separazione netta tra categorie e struttura interna più complessa nel cluster no-jailbreak.}}{5}{}\protected@file@percent }
+\newlabel{fig:macro_tsne}{{4}{5}{}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Visualizzazione Globale dei Sotto-Cluster}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Visualizzazione globale PCA con tutti i sotto-cluster etichettati. Si identificano chiaramente quattro gruppi: jailbreak-0 (blu), jailbreak-1 (arancione), no-jailbreak-0 (verde), no-jailbreak-1 (rosso).}}{6}{}\protected@file@percent }
+\newlabel{fig:global_pca}{{5}{6}{}{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Visualizzazione globale t-SNE con sotto-cluster. La proiezione t-SNE conferma la separazione semantica tra le quattro categorie finali identificate dal clustering gerarchico.}}{7}{}\protected@file@percent }
+\newlabel{fig:global_tsne}{{6}{7}{}{figure.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Analisi Dettagliata dei Sotto-Cluster}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.1}Sotto-Cluster No-Jailbreak}{7}{}\protected@file@percent }
+\newlabel{fig:nojail_pca}{{7a}{7}{}{subfigure.7.1}{}}
+\newlabel{sub@fig:nojail_pca}{{a}{7}{}{subfigure.7.1}{}}
+\newlabel{fig:nojail_tsne}{{7b}{7}{}{subfigure.7.2}{}}
+\newlabel{sub@fig:nojail_tsne}{{b}{7}{}{subfigure.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Dettaglio del sotto-clustering per il macro-cluster no-jailbreak (k=2). Il sotto-cluster 0 (blu) rappresenta risposte completamente conformi, mentre il sotto-cluster 1 (arancione) include risposte parzialmente evasive ma accettabili.}}{7}{}\protected@file@percent }
+\newlabel{fig:nojailbreak_detail}{{7}{7}{}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.4.2}Sotto-Cluster Jailbreak}{8}{}\protected@file@percent }
+\newlabel{fig:jail_pca}{{8a}{8}{}{subfigure.8.1}{}}
+\newlabel{sub@fig:jail_pca}{{a}{8}{}{subfigure.8.1}{}}
+\newlabel{fig:jail_tsne}{{8b}{8}{}{subfigure.8.2}{}}
+\newlabel{sub@fig:jail_tsne}{{b}{8}{}{subfigure.8.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Dettaglio del sotto-clustering per il macro-cluster jailbreak (k=2). La separazione netta tra i due sotto-cluster suggerisce tipologie distinte di attacchi jailbreak: diretti/espliciti (cluster 0) e sofisticati/impliciti (cluster 1).}}{8}{}\protected@file@percent }
+\newlabel{fig:jailbreak_detail}{{8}{8}{}{figure.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussione Tecnica}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Validità della Struttura Gerarchica}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Interpretazione dei Pattern Identificati}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Implicazioni per la Sicurezza AI}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Metriche di Valutazione}{9}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Metriche comparative dei macro-cluster}}{9}{}\protected@file@percent }
+\newlabel{tab:metrics}{{2}{9}{}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitazioni e Considerazioni}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusioni}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Contributi Originali}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Sviluppi Futuri}{10}{}\protected@file@percent }
+\gdef \@abspage@last{10}
