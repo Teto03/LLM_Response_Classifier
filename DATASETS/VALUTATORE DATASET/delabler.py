@@ -4,7 +4,7 @@ import os
 # Ottieni il percorso della directory in cui si trova lo script
 script_dir = os.path.dirname(os.path.abspath(__file__))
 # Costruisci il percorso completo al file te.json
-file_path = os.path.join(script_dir, 'te.json')
+file_path = os.path.join(script_dir, 'selected_responses.json')
 
 # Leggi il file di input
 with open(file_path, 'r', encoding='utf-8') as file:
@@ -17,7 +17,7 @@ for item in data:
         responses_without_labels.append({"response": item["response"]})
 
 # Percorso output
-output_path = os.path.join(script_dir, 'Test12.json')
+output_path = os.path.join(script_dir, 'responses.json')
 # Scrivi i dati modificati in un nuovo file JSON
 with open(output_path, 'w', encoding='utf-8') as outfile:
     json.dump(responses_without_labels, outfile, ensure_ascii=False, indent=2)
